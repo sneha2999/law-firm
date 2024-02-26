@@ -1,0 +1,28 @@
+.header_form{
+    height: max-content;
+    border-radius: 50px;
+    margin-right: 0.25rem;
+    background-color: var(--color-grey);
+    padding: 0.55 1rem;
+   margin-top: 2rem;
+}
+ .Input_text{
+    height: inherit;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: var(--color-grey);
+    border: none;
+    padding: 1rem 1.5rem;
+    color: white;
+    outline: none;
+}
+
+form .header_form_btn{
+   background-color: var(--color-primary);
+   color: var(--color-black);
+   border: none;
+   border-radius: 50px;
+  font-weight: bold;
+  height: inherit;
+  padding: 1rem;
+}

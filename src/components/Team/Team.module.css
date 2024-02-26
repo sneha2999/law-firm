@@ -1,0 +1,45 @@
+.team_div{
+    padding-bottom: 5rem;
+    max-width: 1100px;
+    margin: auto;
+}
+.team_sub_div{
+    margin: 1rem;
+}
+.team_sub_div h1{
+    padding-bottom: 1rem;
+}
+.member_div{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+    border-radius: 5px;
+    padding:  0.5rem;
+    border: 1px solid  rgba(255, 255, 255, .1);
+}
+.member_div:hover *, .member_div:hover {
+    background-color: var(--color-primary);
+    color: var(--color-black)
+}
+.member_div img{
+   width: 50px;
+   height: width;
+   object-fit: contain;
+}
+.member_div h4{
+    margin-bottom: 0
+}
+.member_div p{
+    margin-top: 2px;
+    font-size: 0.75rem;
+    color:  var(--color-white)
+}
+
+@media(max-width: 600px){
+    .member_div{
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
+}

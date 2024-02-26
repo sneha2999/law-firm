@@ -1,0 +1,33 @@
+nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+nav ul{
+  list-style-type: none; 
+  display: flex;
+  gap: 1rem;
+  }
+
+  li{
+    cursor: pointer;
+  }
+  button{
+    background-color: black;
+    color: var(--color-white);
+    border: 1px solid white;
+    padding: 0.15rem 1rem;
+    height: 40px;
+    letter-spacing: 1px;
+    border-radius: 2px;
+  }
+  @media(max-width:700px){
+    nav ul{
+        display: none;
+    }
+    nav{
+        justify-content: space-between;
+    }
+  }

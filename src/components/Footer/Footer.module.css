@@ -1,0 +1,38 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    padding-bottom: 5rem;
+    max-width: 1100px;
+    margin: auto;
+
+}
+.footer_info, ul, .social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul, .social{
+    gap: 1rem
+}
+
+li{
+    list-style-type: none;
+}
+.trademark{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 800px) {
+    .footer_info, .trademark{
+       flex-direction: column;
+       margin-top: 2rem;
+    }
+    .trademark > p{
+        margin: 0;
+    }
+    
+}
+

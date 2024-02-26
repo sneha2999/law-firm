@@ -1,0 +1,81 @@
+.testimonials_container{
+    padding-bottom: 5rem;
+    max-width: 1100px;
+    margin: auto;
+}
+.test_sub_container{
+    margin: 1rem;
+}
+.testimonials_container h1{
+    text-align: center;
+    margin: inherit 1rem;
+}
+.heading{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(255, 255, 255, .1);
+    padding: 1rem;
+    border-radius: 5px;
+}
+.card:hover{
+    background-color:  rgba(255, 255, 255, .1);;
+}
+.card h4{
+    margin-bottom: 0;
+}
+.card h5{
+    margin-bottom: 0;
+    margin-top: 0.75rem;
+}
+
+.clients_img{
+    width: 50px;
+    height: 50px;
+}
+.swiper_btns{
+    display: flex;
+    gap: 0.75rem
+}
+
+.prev, .next{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.next{
+    background-color: var(--color-primary);
+}
+.prev{
+    background-color: var(--color-white);
+}
+
+
+button img{
+    width: 30px
+}
+@media(max-width:639px){
+    .heading{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
